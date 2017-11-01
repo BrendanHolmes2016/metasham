@@ -16,7 +16,7 @@
     ?>
 
     <header>
-            <h1>About MetaSham</h1>
+            <h1>About MetaSham!</h1>
             <img src = "img/metasham.png"
             alt = "MetaSham"
             height = "150"
