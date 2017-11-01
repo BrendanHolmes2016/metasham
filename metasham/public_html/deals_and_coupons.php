@@ -10,23 +10,17 @@
 </head>
 
 <body>
+
+    <?php 
+    include '../resources/navigation.php';
+    ?>
     <header>
             <h1>About MetaSham</h1>
             <img src = "img/metasham.png"
             alt = "MetaSham"
             height = "150"
             width = "100">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home Page</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="where.html">Where</a></li>
-                    <li><a href="support.html">Support</a></li>
-                    <li><a href="deals_and_coupons.html">Deals and Coupons</a></li>
-                    <li><a href="login.html">Login Here</a></li>
-                    <li><a href="enterInfo.html">Enter Information Here</a></li>
-                </ul>
-            </nav>
+            
     </header>
     	<table style="width:100%">
 		  <tr>
@@ -49,9 +43,9 @@
             <td>50% Added</td>
             <td>WHY?</td>
 		</table>
-    <footer>
-        <p>&copy; MetaSham! Brought to you by Brandon and Keegan Labs</p>
-    </footer>
+    <?php 
+    include '../resources/footer.php';
+    ?>
 </body>
 
 </html>

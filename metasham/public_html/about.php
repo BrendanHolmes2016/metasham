@@ -10,23 +10,18 @@
 </head>
 
 <body>
+
+    <?php 
+    include '../resources/navigation.php';
+    ?>
+
     <header>
             <h1>About MetaSham</h1>
             <img src = "img/metasham.png"
             alt = "MetaSham"
             height = "150"
             width = "100">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home Page</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="where.html">Where</a></li>
-                    <li><a href="support.html">Support</a></li>
-                    <li><a href="deals_and_coupons.html">Deals and Coupons</a></li>
-                    <li><a href="login.html">Login Here</a></li>
-                    <li><a href="enterInfo.html">Enter Information Here</a></li>   
-                </ul>
-            </nav>
+            
     </header>
     		<h2>About Us</h2>
     			<p>Contact us at 1-800-428-126-9984 for more questions about the product!</p>
@@ -51,9 +46,9 @@
                     <li>H2SO4<!-- Sulfuric Acid --></li>
                     <li>Boiled Italians</li>
                 </ul>
-    <footer>
-        <p>&copy; MetaSham! Brought to you by Brandon and Keegan Labs</p>
-    </footer>
+    <?php 
+    include '../resources/footer.php';
+    ?>
 </body>
 
 </html>
